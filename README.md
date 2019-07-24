@@ -1,0 +1,2 @@
+# Flexbox-Practice
+This sample website shows the power of Flexbox in CSS.  The Flexbox display can create columns of equal height in CSS which used to be a serious issue in the 1990's. The solution in the 1990's was the HTML table tag, but this was more verbose and less efficient. Thanks to CSS3, Flexbox makes the issue of creating columns of equal height very simple. This sample page is a great example that you are free to use. ![SITE SAMPLE](c:/users/sikud/downloads/sample-page.png)
