@@ -1,0 +1,70 @@
+:root { box-sizing: border-box;
+      }
+
+*,
+::before,
+::after { box-sizing: inherit;
+	}
+
+body * + * { margin-top: 1.5em;
+	   }
+
+body { font-family: helvetica;
+       background-color: rgba(128, 128, 128, 1);
+       --gray-background: rgba(128, 128, 128, 1);
+       --custom-font: "Times New Roman";
+       --crim-color: rgba(220, 20, 60);
+       --cream-color: rgba(255, 253, 208, 1);
+     }
+
+.header { font-family: var(--custom-font);
+	 color: var(--cream-color);
+	 background-color: crimson;
+	 padding: 1em 1.5em;
+	 border-radius: .2em;
+	 width: 100%;
+	}
+
+.container { display: flex;
+	   }
+
+.main { width: 70%;
+	background-color: var(--cream-color);
+	padding: 0.5em;
+	border-radius: 0.2em;
+      }
+
+.sidebar { width: 30%;
+	   margin-left: 1.5em;
+	   background-color: var(--cream-color);
+	   border-radius: 0.2em;
+	   padding: 0;
+	   margin-top: 0;
+	 }
+
+.social-btn { display: block;
+	      text-decoration: none;
+	      background-color: crimson;
+	      color: var(--cream-color);
+	      text-align: center;
+	      text-transform: uppercase;
+	      margin-top: 0;
+	      padding: 1em 1em;
+	    }
+
+.social-btn + .social-btn { margin-top: 1.5em;
+			  }
+
+.join-link { color: crimson;
+	     text-decoration: none;
+	     display: block;
+	   }
+
+
+	    
+		     
+
+
+
+
+
