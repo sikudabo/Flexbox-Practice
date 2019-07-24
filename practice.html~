@@ -1,0 +1,46 @@
+<DOCTYPE! html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HTML CSS PRACTICE</title>
+      <link rel="stylesheet" type="text/css" href="practice.css">
+      <script src="practice.js"></script>
+    </head>
+    <body class="body">
+      <div class="container">
+	<header class="header">
+	  <h1>Smarter.IQ</h1>
+	</header>
+	<nav class="nav">
+	  <ul class="site-nav">
+	    <li><a href="#">Home</a></li>
+	    <li><a href="#">Contact</a></li>
+	    <li><a href="#">Pricing</a></li>
+	    <li><a href="#">Product</a></li>
+	    <li class="push-left"><a href="#">Support</a></li>
+	  </ul>
+	</nav>
+	<div class="main-flex">
+	  <main class="main">
+	    <h4>What we do?</h4>
+	    <p>We supply your team with the best learning software on the market. Not only is our software open-source and free, but it is powerful and will enable your  team to acheive success. Companies like Lessonly can charge up to  $1,000 per month to train your team, but we charge you $0 forever, while delivering the same quality. Learn more <a href="#">here</a> about Smarter.IQ</p>
+	  </main>
+	  <aside class="column-sidebar">
+	    <form>
+	      <label for="username">Username</label>
+	      <input type="text" name="username" placeholder="Username">
+	      <label for="password">Password</label>
+	      <input type="password" name="password" placeholder="Password">
+	      <input type="submit" value="Sign In">
+	    </form>
+	    <div class="money">
+	      <span class="currency">$</span>
+	      <span class="dollars">0</span>
+	      <span class="cents">.00</span>
+	    </div>
+	</div>
+      </div>
+    </body>
+  </html>
+  
